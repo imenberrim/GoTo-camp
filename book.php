@@ -37,7 +37,7 @@
 
 
 <div class="heading" style="background:url(img/header: bg -1.png) no-repeat">
-<h1>les centres</h1>
+<h1>book now</h1>
 </div>
 
 

@@ -1,20 +1,11 @@
-const menubtn =document.querySelector('#menu-btn');
-const navbar = document.querySelector('.header .navbar')
+let menu =document.querySelector('#menu-btn');
+let navbar =document.querySelector('.header .navbar');
 
-menubtn.addEventListener('click',()=>{
+menu.onclick =() =>{
+    menu.classList.toggle('fa-times');
     navbar.classList.toggle('active');
-    menubtn.classList.toggle('fa-times');
-})
-
-
-const swiper = new Swiper('.home-slider', {
-   
-    loop: true,
-
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  
-  });
+};
+window.onscroll=() =>{
+    menu.classList.remove('fa-times');
+    navbar.classList.toggle('active');
+}

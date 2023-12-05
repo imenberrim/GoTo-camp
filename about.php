@@ -25,7 +25,7 @@
     <a href="home.php">home</a>
     <a href="about.php">about</a>
     <a href="centres.php">centres</a>
-    <a href="book.php">book</a>
+    <a href="book.php">blog</a>
   </nav>
 
 <div id="menu-btn" class="fas fa-bars"></div>
@@ -37,7 +37,7 @@
 
 
 <div class="heading" style="background:url(img/header: bg -1.png) no-repeat">
-<h1>les centres</h1>
+<h1>about us</h1>
 </div>
 
 
@@ -68,7 +68,7 @@
     <a href="home.php"> <i class="fas fa-angle-right"></i> home</a>
     <a href="about.php"> <i class="fas fa-angle-right"></i>about</a>
     <a href="centres.php"> <i class="fas fa-angle-right"></i>centres</a>
-    <a href="blog.php"> <i class="fas fa-angle-right"></i>blog</a>
+    <a href="blog.php"> <i class="fas fa-angle-right"></i>book</a>
   </div>
 
   <div class="box">

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport"content="width=device-width, initial-scale=1.0">
-    <title>about</title>
+    <title>Home</title>
 
    <!-- swiper css link-->
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
@@ -35,24 +35,82 @@
 
 <!--header section ends -->
 
+<!--home section starts-->
 
-<div class="heading" style="background:url(img/header: bg -1.png) no-repeat">
-<h1>les centres</h1>
+<section class="home">
+<div class="home-slider">
+<div class="W">
+
+<div class="slide" style="background:url(img/1.jpeg)no-repeat">
+  <div class="content">
+    <span>explore, discover, travel </span>
+    <h3>Embark on an outdoor getaway</h3>
+    <a href="centres.php" class="btn">discover more</a>
+  </div>
+</div>
+
+<div class="slide" style="background:url(img/2.jpg)no-repeat">
+  <div class="content">
+    <span>explore, discover, travel </span>
+    <h3>Sleep under the stars with peace of mind</h3>
+    <a href="centres.php" class="btn">discover more</a>
+
+  </div>
+</div>
+
+<div class="slide" style="background:url(img/3.jpg)no-repeat">
+  <div class="content">
+    <span>explore, discover, travel </span>
+    <h3>Make your camping holiday a relaxing experience</h3>
+    <a href="centres.php" class="btn">discover more</a>
+
+  </div>
 </div>
 
 
+</div>
+
+</div>
+
+<!--home section ends-->
 
 
+<!--services section starts-->
 
+<section class="services">
 
+<h1 class="heading-title">our Services</h1>
+<div class="box-container">
 
+  <div class="box">
+    <img src="img/icon-1.png" alt="">
+    <h3>adventure</h3>
+  </div>
 
+  <div class="box">
+    <img src="img/icon-2.png" alt="">
+    <h3>camp guide</h3>
+  </div>
 
+  <div class="box">
+    <img src="img/icon-3.png" alt="">
+    <h3>trekking</h3>
+  </div>
 
+ <div class="box">
+    <img src="img/icon-4.png" alt="">
+    <h3>off road</h3>
+  </div>
 
+  <div class="box">
+    <img src="img/icon-5.png" alt="">
+    <h3>materiel</h3>
+  </div>
 
+</div>
+</section>
 
-
+<!--services section ends-->
 
 
 
