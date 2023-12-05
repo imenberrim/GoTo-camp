@@ -98,14 +98,36 @@ box-shadow: var(--box-shadow);
     background-position: center !important;
     min-height: 60rem;
 }
-.home .slide .content span h1{
+.home .slide .content{
     width: 85rem;
     display: none;
     z-index: 99;
   
 }
-.home .swiper-slide-active .content{
-    display: inline-block;
+
+.home .slide .content span{
+    display: block;
+    font-size: 3rem;
+    color: var(--white);
+    padding-bottom: 1rem;
+
+}
+.home .slide .content h3{
+    font-size: 6vw;
+    color: var(--white);
+    text-transform: uppercase;
+    line-height: 1;
+text-shadow: var(--text-shadow);
+padding: 1rem 0;
+}
+.home .slide.content .btn{
+     
+}
+
+.swiper-button-next,
+.swiper-button-prev{
+    background: var(--main-color);
+    color: var(--white);
 
 }
 
