@@ -1,17 +1,17 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport"content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
 
    <!-- swiper css link-->
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-/>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     
 <!--font awesome cdn link-->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
 <!--custom css file link-->
  <link rel="stylesheet" href="css/style.css">  
 
@@ -20,7 +20,7 @@
 
 <!--header section starts -->
 <section class="header">
-  <a href="home.php" class="logo">GoTo Camp</a>
+  <a href="home.php" class="logo">GoTo Camp.</a>
   <nav class="navbar">
     <a href="home.php">home</a>
     <a href="about.php">about</a>
@@ -35,44 +35,44 @@
 
 <!--header section ends -->
 
-<!--home section starts-->
-
+<!-- home section starts -->
 <section class="home">
-<div class="home-slider">
-<div class="W">
+  <div class="swiper home-slider">
+    <div class="swiper-wrapper">
 
-<div class="slide" style="background:url(img/1.jpeg)no-repeat">
-  <div class="content">
-    <span>explore, discover, travel </span>
-    <h3>Embark on an outdoor getaway</h3>
-    <a href="centres.php" class="btn">discover more</a>
+      <div class="swiper-slide slide" style="background: url(img/home1.jpg) no-repeat">
+        <div class="content">
+          <span>explore, discover, Connect with nature </span>
+          <h3>Find yourself outside</h3>
+          <a href="centres.php" class="btn">discover more</a>
+        </div>
+      </div>
+
+      <div class="swiper-slide slide" style="background: url(img/home3.jpg) no-repeat">
+        <div class="content">
+          <span>explore, discover, Connect with nature </span>
+          <h3>Camp out under the stars</h3>
+          <a href="centres.php" class="btn">discover more</a>
+        </div>
+      </div>
+
+      <div class="swiper-slide slide" style="background: url(img/home2.jpg) no-repeat;">
+        <div class="content">
+          <span>explore, discover, Connect with nature </span>
+          <h3>Make your camping holiday a relaxing experience</h3>
+          <a href="centres.php" class="btn">discover more</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+
   </div>
-</div>
+</section>
 
-<div class="slide" style="background:url(img/2.jpg)no-repeat">
-  <div class="content">
-    <span>explore, discover, travel </span>
-    <h3>Sleep under the stars with peace of mind</h3>
-    <a href="centres.php" class="btn">discover more</a>
-
-  </div>
-</div>
-
-<div class="slide" style="background:url(img/3.jpg)no-repeat">
-  <div class="content">
-    <span>explore, discover, travel </span>
-    <h3>Make your camping holiday a relaxing experience</h3>
-    <a href="centres.php" class="btn">discover more</a>
-
-  </div>
-</div>
-
-
-</div>
-
-</div>
-
-<!--home section ends-->
+<!-- home section ends -->
 
 
 <!--services section starts-->
@@ -113,6 +113,24 @@
 <!--services section ends-->
 
 
+<!-- home about section starts -->
+
+<section class="home-about">
+
+<div class=image>
+  <img src="img/about.jpg" alt="">
+</div>
+<div class="content">
+<h3>About us</h3>
+<p>Embark on a journey of outdoor exploration with GoTO Camp. Nestled at the intersection of adventure and serenity, we are your gateway to unforgettable camping experiences.</p>
+<a href="about.php" class="btn">read more</a>
+
+</div>
+
+
+</section>
+
+<!-- home about section ends -->
 
 
 
