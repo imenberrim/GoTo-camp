@@ -7,10 +7,10 @@
     <title>Home</title>
 
    <!-- swiper css link-->
-   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     
 <!--font awesome cdn link-->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css>
 
 <!--custom css file link-->
  <link rel="stylesheet" href="css/style.css">  
@@ -59,7 +59,7 @@
       <div class="swiper-slide slide" style="background: url(img/home2.jpg) no-repeat;">
         <div class="content">
           <span>explore, discover, Connect with nature </span>
-          <h3>Make your camping holiday a relaxing experience</h3>
+          <h3>Make your camping a relaxing experience</h3>
           <a href="centres.php" class="btn">discover more</a>
         </div>
       </div>
@@ -184,7 +184,7 @@
 
 
   <!-- swiper js link-->
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 <!--custom js file link -->
 <script src="js/script.js"></script>
