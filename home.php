@@ -1,3 +1,6 @@
+<?php 
+  include_once("connect.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -22,7 +25,8 @@
     <a href="home.php">home</a>
     <a href="about.php">about</a>
     <a href="centres.php">centres</a>
-    <a href="book.php">book</a>
+    <a href="login.php">login</a>
+    <a href="sign.php">Sign In</a>
   </nav>
 
 <div id="menu-btn" class="fas fa-bars"></div>
@@ -129,7 +133,44 @@
 
 <!-- home about section ends -->
 
+<!-- home centres section starts -->
 
+<section class="home-centres">
+<h1 class="heading" > our centres </h1>
+
+<div class="box-container">
+  <div class="box">
+    <div class="image">
+      <img src="img/centre-1.jpeg" alt="">
+    </div>
+<div class="content">
+    <h3>Il Sogno camp</h3>
+    <p>You can stay in wooden cabins in the heart of nature, set up in a camping area that respects nature and the environment.</p>
+    <a href="book.php" class="btn">book now</a>
+</div>
+  </div>
+
+  <div class="box">
+    <div class="image">
+      <img src="img/centre-2.jpg" alt="">
+    </div>
+<div class="content">
+    <h3>Bouhertma Outdoors </h3>
+    <p>They have a variety of equipment such as pergola, kayaks, volleyball and tennis courts, archery, children's playground, and other personalized activities</p>
+    <a href="book.php" class="btn">book now</a>
+</div>
+  </div>
+
+
+</div>
+
+
+
+<div class="load-more"><a href="centres.php" class="btn">load more </a></div>
+
+</section>
+
+<!-- home centres section ends -->
 
 <!--footer section starts-->
 

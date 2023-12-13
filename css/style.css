@@ -21,22 +21,6 @@
     text-decoration:none;
     text-transform:capitalize;
 }
-
-html{
-    font-size: 62.5%;
-    overflow: hidden;
-}
-html::-webkit-scrollbar{
-    width: 1rem;
-}
-
-html::-webkit-scrollbar-track{
-  background-color: var(--white);
-}
-html::-webkit-scrollbar-thumb{
-    background-color: var(--main-color);
-  }
-
   section{
     padding:5rem 10%;
   }
@@ -48,6 +32,22 @@ html::-webkit-scrollbar-thumb{
     }
 
   }
+
+.heading{
+  background-size: cover !important;
+  background-position: center !important;
+  padding-top: 5rem;
+  display: flex;
+ 
+}
+
+
+.heading h1{
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+
 
   .btn{
     display: inline-block;
@@ -183,7 +183,7 @@ html::-webkit-scrollbar-thumb{
 
  .services .box-container{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   gap: 1.5rem;
  }
 
@@ -204,10 +204,154 @@ html::-webkit-scrollbar-thumb{
 
  .services .box-container .box h3{
   color: var(--white);
-  font-size: 1.7rem;
+  font-size: 1rem;
   padding-top: 1rem;
  }
 
+
+.home-about{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.home-about .image{
+  flex: 1 1 41rem; 
+}
+
+.home-about .image img{
+  width: 100%;
+}
+
+.home-about .content{
+  flex: 1 1 41rem;
+  padding: 3rem;
+  background: var(--light-bg);
+}
+
+.home-about .content h3{
+  font-size: 3rem;
+  color: var(--black);
+}
+
+.home-about .content p{
+  font-size: 1.5rem;
+  padding: 1rem 0;
+  line-height: 2;
+  color: var(--black);
+}
+
+.home-centres{
+  background: var(--light-bg);
+}
+
+.home-centres h1{
+  text-align: center;
+  color: #484668;
+  font-size: 2rem;
+}
+
+.home-centres .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 2rem;
+}
+
+.home-centres .box-container .box{
+  border: var(--light-white);
+  box-shadow: var(--box-shadow);
+  background: var(--white);
+}
+
+.home-centres .box-container .box .image{
+  height: 20rem;
+  overflow: hidden;
+}
+
+
+.home-centres .box-container .box .image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition:.2s linear;
+}
+
+.home-centres .box-container .box .content{
+  padding: 2rem;
+  text-align: center;
+}
+
+.home-centres .box-container .box .content h3{
+  font-size: 2.5rem;
+  color: var(--black);
+}
+
+.home-centres .box-container .box .content p{
+  font-size: 1.5rem;
+  color: var(--light-black);
+  line-height: 2;
+  padding: 1rem 0;
+}
+
+
+.about{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.about .image{
+  flex: 1 1 41rem;
+}
+
+.about .image img{
+  width: 100%;
+}
+
+
+.about .content{
+  flex: 1 1 41rem;
+
+}
+
+.about .content h3{
+  font-size: 3rem;
+  color: var(--black);
+}
+
+.about .content p{
+  font-size: 1.5rem;
+  color: var(--light-black);
+line-height: 2;
+padding: 1rem 0;
+}
+
+.about .content .icons-container{
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items:flex-end ;
+}
+
+.about .content .icons-container .icons{
+  background: var(--light-bg);
+  padding: 2rem;
+  flex: 1 1 16rem;
+}
+
+.about .content .icons-container .icons i{
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: var(--main-color);
+}
+
+.about .content .icons-container .icons span{
+  font-size: 1.5rem;
+  color: var(--light-black);
+  display: block;
+}
 
 
 

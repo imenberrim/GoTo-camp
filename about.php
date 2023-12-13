@@ -25,7 +25,8 @@
     <a href="home.php">home</a>
     <a href="about.php">about</a>
     <a href="centres.php">centres</a>
-    <a href="book.php">blog</a>
+    <a href="login.php.php">login</a>
+    <a href="sign.php">Sign In</a>
   </nav>
 
 <div id="menu-btn" class="fas fa-bars"></div>
@@ -40,9 +41,38 @@
 <h1>about us</h1>
 </div>
 
+<!-- about section starts -->
 
+<section class="about">
+  <div class="image">
+    <img src="img/about1.jpg" alt="">
+  </div>
 
+  <div class="content">
+    <h3>why choose us?</h3>
+    <p>. Secure your camping experience in Tunisia with our carefully selected and safe camping centers.</p>
+    <p> Benefit from our local expertise and convenient website to plan your camping trip hassle-free.</p>
+    <p>Enjoy an unforgettable and authentic nature escape with English language support for easy communication.</p>
+    <div class="icons-container">
+      <div class="icons">
+        <i class="fas fa-map"></i>
+        <span>top destinations</span>
+      </div>
 
+      <div class="icons">
+        <i class="fas fa-hand-holding-usd"></i>
+        <span>offordable price</span>
+      </div>
+
+      <div class="icons">
+        <i class="fas fa-headset"></i>
+        <span>24/7 guide service</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- about section ends -->
 
 
 
